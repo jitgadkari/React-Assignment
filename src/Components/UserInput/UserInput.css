@@ -1,0 +1,28 @@
+/* .structure{
+    width: 65%;
+    height: 100vh;
+    background-color: rgb(4, 50, 35);
+    margin:auto;
+} */
+
+.textfield{
+    position:absolute;
+    bottom:0px;
+    width: 65%;
+}
+.inputfield{
+  
+    display: flex;
+    justify-content: space-between;
+}
+.in{
+    width:75%;
+    
+}
+.button{
+    background-color: blue;
+    color:white;
+    width: 25%;
+    height: 35px;
+    font-weight: bold;
+}

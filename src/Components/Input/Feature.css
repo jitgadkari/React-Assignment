@@ -1,0 +1,25 @@
+.featurebuttons{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 5vh;
+    box-shadow: 0 1px 8px rgba(10, 10, 10, 0.25);
+}
+.pinbutton{
+    background-color: rgb(55, 204, 134);
+    color:white;
+    width: 25%;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+.deletebutton{
+    background-color: red;
+    color:white;
+    width: 25%;
+    height: 35px;
+    border-radius: 4px;
+    
+}

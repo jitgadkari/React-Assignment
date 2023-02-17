@@ -1,0 +1,53 @@
+/* .outputtext{
+    padding:10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: white;
+} */
+
+.outputtext{
+text-align: left;
+font-weight: normal;
+background-color:white;
+max-width:80%;
+border-radius: 30px;
+border-bottom-left-radius: 100px;
+
+}
+.text {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    padding-top: 0px;
+    margin-left: 10px;
+    border-radius: 30px;
+border-bottom-left-radius: 100px;
+
+}
+
+.featurebuttons{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 2vh;
+    box-shadow: 0 1px 8px rgba(10, 10, 10, 0.25);
+}
+.pinbutton{
+    background-color: rgb(55, 204, 134);
+    color:white;
+    width: 20%;
+    height: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+.deletebutton{
+    background-color: red;
+    color:white;
+    width: 10%;
+    height: 20px;
+    border-radius: 4px;
+    
+}
