@@ -25,6 +25,7 @@ export default function UserInput(props) {
             <div className='inputfield'>
                 <input type="text" id="text" className='in' placeholder='Message' value={userInput} onChange={userInputChangeHandler} />
                 <button type="submit" className='button'>Send</button>
+                <h1></h1>
             </div>
         </form>
     )
